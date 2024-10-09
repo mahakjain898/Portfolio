@@ -45,7 +45,7 @@ const Home = () => {
           find me immersed in a good book, whipping up a new recipe in the
           kitchen, or indulging in my favourite ramen.
         </p>
-        <div className="flex py-5 justify-start">
+        <div className="flex py-10 justify-start">
           {logos.map((logo, index) => (
             <a
               key={index}

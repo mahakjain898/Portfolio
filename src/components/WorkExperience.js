@@ -7,7 +7,7 @@ const WorkExperienceItem = ({ company, date, description, icon }) => (
   <li className="mb-10 flex items-start font-nunito">
     {" "}
     {/* Use flexbox to align items */}
-    <span className="flex-shrink-0 flex items-center justify-center w-10 h-10 bg-orange-100 rounded-full ring-8 ring-white dark:ring-black-900 dark:bg-orange-900">
+    <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full ring-8 ring-white dark:ring-black-900 dark:bg-orange-900">
       {icon}
     </span>
     <div className="ml-6">
@@ -27,7 +27,7 @@ const WorkExperienceItem = ({ company, date, description, icon }) => (
 const WorkExperience = () => {
   return (
     <section className="py-10">
-      <div className="relative mb-4">
+      <div className="relative mb-4 w-2/12">
         <h2 className="text-gray-900 dark:text-white mb-2 text-[24px] inline-block">
           Work Experience
         </h2>

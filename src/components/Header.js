@@ -11,10 +11,18 @@ const Header = () => {
 
         <div className="flex items-center">
           <ul className="flex">
-            <li className="px-6 py-4">Home</li>
-            <li className="px-6 py-4">About</li>
-            <li className="px-6 py-4">Project</li>
-            <li className="px-6 py-4">Resume</li>
+            <li className="px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-300 hover:cursor-pointer">
+              Home
+            </li>
+            <li className="px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-300 hover:cursor-pointer">
+              About
+            </li>
+            <li className="px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-300 hover:cursor-pointer">
+              Project
+            </li>
+            <li className="px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-300 hover:cursor-pointer">
+              Resume
+            </li>
           </ul>
         </div>
       </div>
