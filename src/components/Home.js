@@ -39,7 +39,7 @@ const Home = () => {
       {/* Text Section */}
       <div className="p-[10px] w-[664px]">
         <p className="text-[32px] pb-2">Hi, I am Mahak!</p>
-        <p className="text-justify">
+        <p className="text-justify text-[20px]">
           I'm a passionate software developer who loves solving problems through
           code. When I’m not busy building innovative solutions, you’ll likely
           find me immersed in a good book, whipping up a new recipe in the

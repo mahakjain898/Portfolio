@@ -4,7 +4,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="flex justify-center mt-[43px]">
+    <div className="flex justify-center items-start min-h-screen bla ">
       <div className="w-[1084px]">
         <Header />
         <Body />
