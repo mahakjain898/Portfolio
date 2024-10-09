@@ -4,19 +4,23 @@ import radical from "../public/radical.svg";
 import quest from "../public/quest.svg";
 
 const WorkExperienceItem = ({ company, date, description, icon }) => (
-  <li className="mb-10 ml-6">
-    <span className=" absolute flex items-center justify-center w-10 h-10 bg-orange-100 rounded-full -left-3 ring-8 ring-white dark:ring-black-900 dark:bg-orange-900">
+  <li className="mb-10 flex items-start font-nunito">
+    {" "}
+    {/* Use flexbox to align items */}
+    <span className="flex-shrink-0 flex items-center justify-center w-10 h-10 bg-orange-100 rounded-full ring-8 ring-white dark:ring-black-900 dark:bg-orange-900">
       {icon}
     </span>
-    <h3 className="flex items-center mb-1 pl-4 text-[20px] pb-2 text-gray-900 dark:text-white">
-      {company}
-    </h3>
-    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-      {date}
-    </time>
-    <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-      {description}
-    </p>
+    <div className="ml-6">
+      {" "}
+      {/* Text content moved next to icon */}
+      <h3 className="text-[20px] text-gray-900 dark:text-white">{company}</h3>
+      <time className="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        {date}
+      </time>
+      <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+        {description}
+      </p>
+    </div>
   </li>
 );
 
@@ -29,7 +33,9 @@ const WorkExperience = () => {
         </h2>
         <div className="absolute left-0 right-0 bottom-0 h-[4px] bg-[#FFA237]"></div>
       </div>
-      <ol className="relative border-l border-gray-200 dark:border-gray-700 py-6">
+      <ol className="relative py-6">
+        {" "}
+        {/* Removed the border-l class here */}
         <WorkExperienceItem
           company="Radical AI"
           date="February 2024 - July 2024"
