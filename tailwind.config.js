@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
         nunito: ["Nunito", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
     },
   },

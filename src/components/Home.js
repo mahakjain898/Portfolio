@@ -37,8 +37,8 @@ const Home = () => {
   return (
     <div className="flex justify-between items-center mt-[75px] pb-[100px]">
       {/* Text Section */}
-      <div className="p-[10px] w-[664px]">
-        <p className="text-[32px] pb-2">Hi, I am Mahak!</p>
+      <div className="p-[20px] w-[664px]">
+        <p className="text-[32px] py-8">Hi, I am Mahak!</p>
         <p className="text-justify text-[20px]">
           I'm a passionate software developer who loves solving problems through
           code. When I’m not busy building innovative solutions, you’ll likely

@@ -13,11 +13,13 @@ const WorkExperienceItem = ({ company, date, description, icon }) => (
     <div className="ml-6">
       {" "}
       {/* Text content moved next to icon */}
-      <h3 className="text-[20px] text-gray-900 dark:text-white">{company}</h3>
+      <h3 className="text-[20px] py-2 text-gray-900 dark:text-white">
+        {company}
+      </h3>
       <time className="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
         {date}
       </time>
-      <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+      <p className="text-base py-2 font-normal text-gray-500 dark:text-gray-400">
         {description}
       </p>
     </div>
@@ -27,7 +29,7 @@ const WorkExperienceItem = ({ company, date, description, icon }) => (
 const WorkExperience = () => {
   return (
     <section className="py-10">
-      <div className="relative mb-4 w-2/12">
+      <div className="relative mb-4 w-2/12 py-2">
         <h2 className="text-gray-900 dark:text-white mb-2 text-[24px] inline-block">
           Work Experience
         </h2>
