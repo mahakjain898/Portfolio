@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <div className="relative mb-4">
-        <h2 className="text-gray-900 dark:text-white mb-2 text-[24px] inline-block">
+        <h2 className="text-gray-900  mb-2 text-[24px] inline-block">
           Projects
         </h2>
         <div className="w-1/12 absolute left-0 right-0 bottom-0 h-[4px] bg-[#FFA237]"></div>

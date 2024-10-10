@@ -7,21 +7,17 @@ const WorkExperienceItem = ({ company, date, description, icon }) => (
   <li className="mb-10 flex items-start font-nunito">
     {" "}
     {/* Use flexbox to align items */}
-    <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full ring-8 ring-white dark:ring-black-900 dark:bg-orange-900">
+    <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full ring-8 ring-white ">
       {icon}
     </span>
     <div className="ml-6">
       {" "}
       {/* Text content moved next to icon */}
-      <h3 className="text-[20px] py-2 text-gray-900 dark:text-white">
-        {company}
-      </h3>
-      <time className="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+      <h3 className="text-[20px] py-2 text-gray-900 ">{company}</h3>
+      <time className="block mb-1 text-sm font-normal leading-none text-gray-400 ">
         {date}
       </time>
-      <p className="text-base py-2 font-normal text-gray-500 dark:text-gray-400">
-        {description}
-      </p>
+      <p className="text-base py-2 font-normal text-gray-500 ">{description}</p>
     </div>
   </li>
 );
@@ -30,7 +26,7 @@ const WorkExperience = () => {
   return (
     <section className="py-10">
       <div className="relative mb-4 w-2/12 py-2">
-        <h2 className="text-gray-900 dark:text-white mb-2 text-[24px] inline-block">
+        <h2 className="text-gray-900  mb-2 text-[24px] inline-block">
           Work Experience
         </h2>
         <div className="absolute left-0 right-0 bottom-0 h-[4px] bg-[#FFA237]"></div>
