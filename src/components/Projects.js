@@ -23,7 +23,7 @@ const Projects = () => {
         <Card
           title="Crowdfunding Platform"
           description="Developed a crowdfunding platform that enables users to discover and contribute to global projects while providing insights into popular initiatives and backers."
-          link="https://example.com/crowdfunding"
+          link="https://github.com/mahakjain898/Crowd-Funding-Application"
         />
         <Card
           title="Netflix GPT"
