@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Container from "./Container";
 
 const Header = () => {
@@ -16,29 +15,20 @@ const Header = () => {
 
           <div className="flex items-center">
             <ul className="flex">
-              <li
-                key="Home"
-                className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600 hover:cursor-pointer"
-              >
-                <Link to="/">Home</Link>
+              <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
+                <a href="#home">Home</a>
               </li>
-              <li
-                key="About"
-                className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600 hover:cursor-pointer"
-              >
-                <Link to="/About">About</Link>
+              <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
+                <a href="#work-experience">Work Experience</a>
               </li>
-              <li
-                key="Project"
-                className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600 hover:cursor-pointer"
-              >
-                <Link to="/Projects">Project</Link>
+              <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
+                <a href="#about">About</a>
               </li>
-              <li
-                key="Resume"
-                className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600 hover:cursor-pointer"
-              >
-                <Link to="/Resume">Resume</Link>
+              <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
+                <a href="#projects">Projects</a>
+              </li>
+              <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
