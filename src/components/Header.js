@@ -18,9 +18,9 @@ const Header = () => {
               <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
                 <a href="#home">Home</a>
               </li>
-              <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
+              {/* <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
                 <a href="#work-experience">Work Experience</a>
-              </li>
+              </li> */}
               <li className="relative px-6 py-4 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-orange-600">
                 <a href="#about">About</a>
               </li>
