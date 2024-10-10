@@ -10,8 +10,8 @@ const Body = () => {
     <div>
       <Home />
       <WorkExperience />
-      <About />
       <Projects />
+      <About />
       <Contact />
     </div>
   );
