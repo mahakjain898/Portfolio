@@ -1,39 +1,36 @@
 import React from "react";
-import persis from "../public/persistent.svg";
-import radical from "../public/radical.svg";
-import quest from "../public/quest.svg";
+import persis from "../public/persistent.jpeg";
+import radical from "../public/radical.jpeg";
+import quest from "../public/quest.jpeg";
 
 const WorkExperienceItem = ({ company, date, description, icon }) => (
   <li className="mb-10 flex items-start font-nunito">
-    {" "}
-    {/* Use flexbox to align items */}
-    <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full ring-8 ring-white ">
+    {/* Updated: Remove background and ring */}
+    <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full">
       {icon}
     </span>
     <div className="ml-6">
-      {" "}
-      {/* Text content moved next to icon */}
-      <h3 className="text-[20px] py-2 text-gray-900 ">{company}</h3>
+      <h3 className="text-[20px] py-2 text-gray-700 ">{company}</h3>
       <time className="block mb-1 text-sm font-normal leading-none text-gray-400 ">
         {date}
       </time>
-      <p className="text-base py-2 font-normal text-gray-500 ">{description}</p>
+      <p className="text-base py-2 font-light text-gray-700 text-[16px] ">
+        {description}
+      </p>
     </div>
   </li>
 );
 
 const WorkExperience = () => {
   return (
-    <section className="py-10">
-      <div className="relative mb-4 w-2/12 py-2">
+    <section className="py-10 font-manrope">
+      <div className="relative mb-4 w-3/12 py-2">
         <h2 className="text-gray-900  mb-2 text-[24px] inline-block">
           Work Experience
         </h2>
-        <div className="absolute left-0 right-0 bottom-0 h-[4px] bg-[#FFA237]"></div>
+        <div className="absolute left-0 w-9/12 right-0 bottom-0 h-[4px] bg-[#FFA237]"></div>
       </div>
       <ol className="relative py-6">
-        {" "}
-        {/* Removed the border-l class here */}
         <WorkExperienceItem
           company="Radical AI"
           date="February 2024 - July 2024"
@@ -42,7 +39,7 @@ const WorkExperience = () => {
             <img
               src={radical}
               alt="Radical AI Logo"
-              className="w-7 h-7 border-orange-50"
+              className="w-12 h-12 rounded-full object-cover"
             />
           }
         />
@@ -54,7 +51,7 @@ const WorkExperience = () => {
             <img
               src={persis}
               alt="Persistent Systems Logo"
-              className="w-7 h-7 border-black"
+              className="w-12 h-12 rounded-full object-cover"
             />
           }
         />
@@ -66,7 +63,7 @@ const WorkExperience = () => {
             <img
               src={quest}
               alt="Quest Global Technologies Logo"
-              className="w-7 h-7 border-black"
+              className="w-12 h-12 rounded-full object-cover"
             />
           }
         />

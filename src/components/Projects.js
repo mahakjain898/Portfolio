@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+// import Pill from "./Pill";
 
 const Projects = () => {
   return (
@@ -18,6 +19,7 @@ const Projects = () => {
           description="Developed a scalable backend in Node.js, integrating Redis for data storage, RabbitMQ for task processing, and Elasticsearch with Kibana for advanced querying and visualization."
           link="https://github.com/mahakjain898/Insurance-Maintenance"
         />
+        {/* <Pill items={["Python", "Next JS", "React", "Tailwind CSS", "GCP"]} /> */}
         <Card
           title="Crowdfunding Platform"
           description="Developed a crowdfunding platform that enables users to discover and contribute to global projects while providing insights into popular initiatives and backers."

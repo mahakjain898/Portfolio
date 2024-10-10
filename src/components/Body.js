@@ -4,6 +4,7 @@ import WorkExperience from "./WorkExperience";
 import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
+// import Pill from "./Pill";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";]
 
 const Body = () => {
@@ -14,6 +15,7 @@ const Body = () => {
       <Projects />
       <About />
       <Contact />
+      {/* <Pill items={["java", "python"]} /> */}
     </div>
   );
 };

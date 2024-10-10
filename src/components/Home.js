@@ -35,10 +35,10 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex justify-between items-center mt-[75px] pb-[100px]">
+    <div className="flex justify-between items-center mt-[75px] pb-[100px] font-nunito">
       {/* Text Section */}
       <div className="p-[20px] w-[664px]">
-        <p className="text-[32px] py-8">Hi, I am Mahak!</p>
+        <p className="text-[32px] py-4 font-semibold">Hi, I am Mahak!</p>
         <p className="text-justify text-[20px]">
           I'm a passionate software developer who loves solving problems through
           code. When I’m not busy building innovative solutions, you’ll likely
@@ -66,7 +66,7 @@ const Home = () => {
       </div>
       <div className="flex">
         <img
-          className="w-[205px] h-[212px] rounded-[12px]"
+          className="w-[250px] h-[250px] rounded-[12px]"
           src={gifs[currentGifIndex]}
           alt="Slideshow GIF"
         />

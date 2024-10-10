@@ -16,9 +16,9 @@ const About = () => {
           <img
             src={i}
             alt="Mahak Jain"
-            className="w-[300px] h-[300px] rounded-full object-cover"
+            className="w-[436px] h-[300px] rounded-xl object-cover"
           />
-          <div className="text-justify text-gray-700 text-[22px] leading-relaxed w-8/12">
+          <div className="pl-[64px] text-gray-700  text-[22px] leading-relaxed w-[564px]">
             I'm a passionate software developer who loves solving problems
             through code. When I’m not busy building innovative solutions,
             you’ll likely find me immersed in a good book, whipping up a new
