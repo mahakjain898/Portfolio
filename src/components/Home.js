@@ -57,8 +57,7 @@ const Home = () => {
                 src={logo.src}
                 alt={logo.alt}
                 className={`w-[32px] h-[32px] mx-2 transition duration-300 ease-in-out 
-                            filter brightness-50 hover:brightness-400 
-                            hover:shadow-lg hover:shadow-orange-500`} // Apply hover effect and color change
+                            filter brightness-50 hover:brightness-400 hover:rounded-md hover:shadow-lg hover:shadow-orange-500`} // Apply hover effect and color change
               />
             </a>
           ))}
