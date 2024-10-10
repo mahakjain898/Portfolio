@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fffa029e.css",
-    "main.js": "/Portfolio/static/js/main.1764c001.js",
+    "main.css": "/Portfolio/static/css/main.87acd654.css",
+    "main.js": "/Portfolio/static/js/main.224a8888.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/giphy.gif": "/Portfolio/static/media/giphy.1b3355e7908793dfd9ec.gif",
     "static/media/mahak.png": "/Portfolio/static/media/mahak.29081098b50eedde25f3.png",
     "static/media/book.gif": "/Portfolio/static/media/book.17c6f9649037cecc68cc.gif",
     "static/media/coding.gif": "/Portfolio/static/media/coding.24dd48cd345f010b18c3.gif",
-    "static/media/quest.svg": "/Portfolio/static/media/quest.05be09faee6d7ff040338a2ac47e4fad.svg",
-    "static/media/radical.svg": "/Portfolio/static/media/radical.9606627bf2415a453fe311bd074cbacb.svg",
     "static/media/GithubLogo.svg": "/Portfolio/static/media/GithubLogo.eef72bf206e9d2d89593d821e6c80392.svg",
-    "static/media/persistent.svg": "/Portfolio/static/media/persistent.2e1905cf04a0316e87cb552adac843ce.svg",
     "static/media/ReadCvLogo.svg": "/Portfolio/static/media/ReadCvLogo.467a4767d124eb00850186b80a25f48f.svg",
     "static/media/leetcode.svg": "/Portfolio/static/media/leetcode.eb7ac2baa7558a832cc3ff73bf944b04.svg",
     "static/media/LinkedinLogo.svg": "/Portfolio/static/media/LinkedinLogo.d385f54c6566b437259a93aaba5c3d72.svg",
     "index.html": "/Portfolio/index.html",
-    "main.fffa029e.css.map": "/Portfolio/static/css/main.fffa029e.css.map",
-    "main.1764c001.js.map": "/Portfolio/static/js/main.1764c001.js.map",
+    "main.87acd654.css.map": "/Portfolio/static/css/main.87acd654.css.map",
+    "main.224a8888.js.map": "/Portfolio/static/js/main.224a8888.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fffa029e.css",
-    "static/js/main.1764c001.js"
+    "static/css/main.87acd654.css",
+    "static/js/main.224a8888.js"
   ]
 }
