@@ -11,7 +11,7 @@ const Body = () => {
     <div>
       <Home />
       <WorkExperience />
-      <SkillsMarquee />
+      {/* <SkillsMarquee /> */}
       <Projects />
       <About />
       <Contact />
