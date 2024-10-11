@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Home from "./Home";
 import WorkExperience from "./WorkExperience";
 import About from "./About";
@@ -11,7 +11,10 @@ const Body = () => {
     <div>
       <Home />
       <WorkExperience />
-      {/* <SkillsMarquee /> */}
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <SkillsMarquee />
+      </React.Suspense>
+
       <Projects />
       <About />
       <Contact />
