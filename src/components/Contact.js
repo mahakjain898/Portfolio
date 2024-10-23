@@ -20,7 +20,7 @@ const Contact = () => {
               </button>
             </a>
 
-            <a href="mailto:jainmahak1310.com">
+            <a href="mailto:jainmahak1310@gmail.com">
               <button className="bg-white text-[20px] text-black border-black border-solid px-6 py-2 rounded-lg transition-all duration-200 ease-in-out hover:shadow-[0_4px_20px_rgba(255,162,55,0.6)]">
                 Email me
               </button>

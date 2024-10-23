@@ -12,7 +12,7 @@ const Body = () => {
       <Home />
       <WorkExperience />
       <React.Suspense fallback={<div>Loading...</div>}>
-        {/* <SkillsMarquee /> */}
+        <SkillsMarquee />
       </React.Suspense>
 
       <Projects />

@@ -18,11 +18,14 @@ const About = () => {
             alt="Mahak Jain"
             className="w-[436px] h-[300px] rounded-xl object-cover"
           />
-          <div className="pl-[64px] text-gray-700  text-[22px] leading-relaxed w-[564px]">
-            I'm a passionate software developer who loves solving problems
-            through code. When I’m not busy building innovative solutions,
-            you’ll likely find me immersed in a good book, whipping up a new
-            recipe in the kitchen, or indulging in my favorite ramen.
+          <div className="pl-[64px] text-gray-700  text-[20px] leading-relaxed w-[564px]">
+            As a full-stack developer, I enjoy working on both the front and
+            back ends to bring ideas to life. I’m passionate about crafting
+            minimalistic and modern user experiences while also optimizing
+            complex backend systems for data efficiency. Whether it’s designing
+            intuitive interfaces or diving into large-scale data challenges, I’m
+            always excited to build impactful solutions that bridge the gap
+            between aesthetics and functionality.
           </div>
         </div>
       </div>
